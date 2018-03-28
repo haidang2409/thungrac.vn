@@ -1,0 +1,36 @@
+#api-get-cdc-new
+{
+    margin-top: 10px;
+}
+#api-get-cdc-new .item
+{
+    /*padding: 10px 0;*/
+}
+#api-get-cdc-new .item .col-xs-12
+{
+    border-top: 1px solid #D5D5D5;
+    margin-top: 10px;
+}
+#api-get-cdc-new h4
+{
+    margin-left: -5px !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#api-get-cdc-new h4 a
+{
+    text-decoration: none !important;
+    font-size: 17px;
+    color: #1ABB9C;
+}
+#api-get-cdc-new h4 a:hover
+{
+    color: #73879C;
+}
+#api-get-cdc-new .item .bg
+{
+    height: 80px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}

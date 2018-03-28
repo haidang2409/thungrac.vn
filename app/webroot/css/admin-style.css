@@ -1,0 +1,258 @@
+/*Flash*/
+div.error-message
+{
+    color: #ec971f;
+}
+.label-require
+{
+    color: #ec971f;
+}
+.div-hint
+{
+    padding-top: 5px;
+    font-style: italic;
+    color: #9d9d9d;
+    font-size: 14px;
+}
+/*Flash*/
+.alert
+{
+    border-radius: 0;
+    padding: 8px 10px 8px 10px;
+}
+.alert .close
+{
+    font-size: 20px !important;
+}
+.alert-danger
+{
+    background-color: #f2dede;
+    border: none;
+    border-left: 3px solid #a94442;
+}
+.alert-info
+{
+    background-color: #d9edf7;
+    border: none;
+    border-left: 3px solid #31708f;
+}
+.alert-success
+{
+    background-color: #dff0d8;
+    border: none;
+    border-left: 3px solid #3c763d;
+}
+.alert-warning
+{
+    background-color: #fcf8e3;
+    border: none;
+    border-left: 3px solid #8a6d3b;
+}
+.modal-open .modal
+{
+    overflow-y: scroll !important;
+}
+.close-flash
+{
+    cursor: pointer;
+}
+#spinner
+{
+    display: none;
+    padding-top: 85px;
+    opacity: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    font-size: 3em;
+    color: #ec971f;
+    z-index: 999999;
+    text-align: center;
+}
+#spinner i
+{
+    opacity: 1 !important;
+}
+/*Product*/
+/*Product*/
+.list-style-1,
+.list-style-2,
+.list-style-3,
+.list-style-4
+{
+    margin-bottom: 10px;
+}
+.product-container .list-style-1 h4 a
+{
+    text-decoration: none !important;
+    color: #ec971f !important;
+}
+.product-container .list-style-2 h4 a
+{
+    text-decoration: none;
+}
+.product-container .list-style-3 h4 a
+{
+    text-decoration: none;
+}
+.product-container .list-style-4 h4 a
+{
+    text-decoration: none;
+    color: #474747;
+}
+.product-container .list-style-1 h4 a:hover,
+.product-container .list-style-2 h4 a:hover,
+.product-container .list-style-3 h4 a:hover,
+.product-container .list-style-4 h4 a:hover
+{
+    color: #a3a3a3 !important;
+}
+.list-style-1 h4,
+.list-style-3 h4
+{
+    color: #ec971f;
+}
+.label-top1-icon{
+    border-color: orange transparent transparent orange;
+    border-style: solid;
+    border-width: 30px 30px 30px 30px;
+    height: 0px;
+    width: 0px;
+    opacity: 0.8;
+}
+.list-style-1 .price,
+.list-style-2 .price,
+.list-style-3 .price,
+.list-style-4 .price
+{
+    display: block;
+    font-weight: bold;
+    font-size: 17px;
+    color: #474747;
+}
+.list-style-1 .summary, .location,
+.list-style-2 .summary, .location,
+.list-style-3 .summary, .location,
+.list-style-4 .summary, .location
+{
+    display: block;
+    color: #7e7e7e;
+    display: block;
+}
+.list-style-1 .date,
+.list-style-2 .date,
+.list-style-3 .date,
+.list-style-4 .date
+{
+    display: block;
+    font-style: italic;
+    font-size: 13px;
+    color: #7e7e7e;
+}
+.list-style-2 .member,
+.list-style-1 .member,
+.list-style-3 .member,
+.list-style-4 .member
+{
+    display: block;
+    color: #7e7e7e;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.show-phonenumber
+{
+    color: orangered;
+}
+.show-phonenumber:hover
+{
+    cursor: pointer;;
+    text-decoration: underline;
+}
+.product-list-image
+{
+    padding-right: 5px !important;
+}
+.product-list-summary
+{
+    padding-top: 5px;
+    padding-left: 3px !important;
+    margin-left: 0px !important;
+}
+.product-list-summary hr
+{
+    margin-top: -5px;
+    margin-bottom: 3px;
+}
+.list-product-bg-hover:hover
+{
+    background-color: #eff2ff !important;
+}
+.product-img-title
+{
+    padding: 5px;
+    background-color: #dddddd;
+    opacity: 0.4;
+    bottom: 0;
+    vertical-align: bottom;
+}
+
+/*Table*/
+table thead th a i
+{
+    float: right !important;
+    padding-top: 4px;
+}
+
+.div-form-timkiem
+{
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px;
+}
+.btn-xs
+{
+    height: 33px !important;
+}
+.table .btn-xs
+{
+    height: 30px !important;
+}
+.skin-2 .breadcrumbs
+{
+    margin: 0 !important;
+    border-radius: 0 !important;
+}
+/*Home*/
+.infobox
+{
+    width: 25% !important;
+    height: 150px !important;
+}
+.infobox-small
+{
+    width: 135px !important;
+    height: 52px !important;
+}
+.btn.btn-app
+{
+    width: 150px !important;
+}
+@media (min-width: 992px) {
+    /*Home*/
+    .itemdiv .memberdiv
+    {
+        width: 250px !important;
+    }
+    .itemdiv > .user > .img, .itemdiv > .user > img
+    {
+        max-width: 50px !important;
+    }
+    .itemdiv > .user
+    {
+        width: 50px !important;
+    }
+    .itemdiv .memberdiv > .body > .name > a
+    {
+        max-width: 200px;
+    }
+}

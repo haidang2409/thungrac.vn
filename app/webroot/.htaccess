@@ -1,0 +1,28 @@
+ <IfModule mod_rewrite.c>
+     Options -Indexes
+     RewriteEngine On
+     RewriteCond %{REQUEST_FILENAME} !-d
+     RewriteCond %{REQUEST_FILENAME} !-f
+     RewriteRule ^ index.php [L]
+     #ckfinder
+     RewriteRule   ^js/ckfinder/ - [L]
+     #Bat luu cache
+     <IfModule mod_deflate.c>
+         <FilesMatch "\.(ico|jpg|jpeg|png|gif|js|css|html|php|txt|xml|woff|ttf)$">
+             SetOutputFilter DEFLATE
+         </FilesMatch>
+         <FilesMatch "\.(ico|jpg|JPG|jpeg|png|PNG|gif|js|css|woff|ttf)$">
+ #            Header set Expires "access plus 30 day"
+ #            Header set Expires "Tue, 13 Mar 2018 23:19:45 GMT"
+             <IfModule mod_expires.c>
+                     ExpiresActive On
+                 </IfModule>
+                 <IfModule mod_headers.c>
+                   Header set Expires "Tue, 13 Mar 2018 23:19:45 GMT"
+                     Header unset ETag
+                 </IfModule>
+                 FileETag None
+         </FilesMatch>
+     </IfModule>
+ </IfModule>
+
